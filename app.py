@@ -227,7 +227,7 @@ def process_chat_message(message):
             
             # Call AI service API
             headers = {
-                "Authorization": f"Bearer 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",
+                "Authorization": f"Bearer {AI_API_KEY}",
                 "Content-Type": "application/json"
             }
             
